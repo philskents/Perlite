@@ -8,7 +8,7 @@ WORKDIR /var/www/perlite/
 COPY ./*.php ./
 COPY ./.styles/ ./.styles/
 COPY ./.js/ ./.js/
-COPY ../perlite/*.ico ./
-COPY ../perlite/*.svg ./
+COPY ./*.ico ./
+COPY ./*.svg ./
 
 EXPOSE 9000
