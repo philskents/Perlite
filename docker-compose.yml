@@ -3,23 +3,14 @@ version: "3.9"
 services:
 
   perlite:
-    build:
-        context: ./perlite
-   
+    image: allotment-app
     environment:
-      - NOTES_PATH=Demo
       - HIDE_FOLDERS=docs,private,trash
 
-    volumes:
-      - ./Demo:/var/www/perlite/Demo:ro
-
   web:
-    build:
-        context: ./web    
+    image: allotment-web
     ports:
-      - 80:80
-    volumes_from: 
-      - perlite       
+      - 8080:80     
     depends_on:
       - perlite
 
