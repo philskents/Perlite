@@ -4,6 +4,7 @@ MAINTAINER sec77 https://github.com/secure-77/Perlite
 
 RUN rm /etc/nginx/conf.d/default.conf 
 COPY ./Perlite/web/config/ /etc/nginx/conf.d/
+COPY ./Perlite/web/ratty-launch.sh ./
 
 WORKDIR /var/www/perlite/
 COPY ./Perlite/perlite/*.php ./
