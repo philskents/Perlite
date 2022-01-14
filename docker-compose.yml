@@ -3,12 +3,12 @@ version: "3.9"
 services:
 
   perlite:
-    image: allotment-app
+    image: ghcr.io/philskents/allotment-manager/app:latest
     environment:
       - HIDE_FOLDERS=docs,private,trash
 
   web:
-    image: allotment-web
+    image: ghcr.io/philskents/allotment-manager/web:latest
     ports:
       - 8080:80     
     depends_on:
