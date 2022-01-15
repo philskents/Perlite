@@ -27,7 +27,7 @@
             <a href="."><img src="logo.svg" height="65" class="me-3" alt="Perlite Logo"></a>
 
             <ul class="navbar-nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-              <li class="nav-item px-2"><a class="nav-link" href="https://secure77.de" target="_blank">Blog</a></li>
+              <li class="nav-item px-2"><a class="nav-link" href="https://strangeadventures.in" target="_blank">Blog</a></li>
               <li class="nav-item px-2"><a class="nav-link" id="about" href="#">About</a></li>
             </ul>
             <div class="no-mobile text-info mdTitle me-lg-5"></div> 
